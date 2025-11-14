@@ -25,7 +25,10 @@ export interface Testimonial {
 }
 
 export interface HeroSlide {
-  title: React.ReactNode;
+  // Fix: Changed title from React.ReactNode to string to resolve the "Cannot find namespace 'React'" error.
+  // This aligns with the data structure in `constants.ts` where titles are strings with special formatting,
+  // which is handled by a custom rendering function in `Home.tsx`.
+  title: string;
   subtitle: string;
   imageUrl: string;
 }

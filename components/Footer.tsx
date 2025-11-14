@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { COMPANY_INFO } from '../constants';
-import { FacebookIcon, InstagramIcon, LinkedinIcon } from './icons';
+import { FacebookIcon, InstagramIcon, LinkedinIcon, YoutubeIcon } from './icons';
 
 const Footer: React.FC = () => {
   return (
@@ -16,6 +16,7 @@ const Footer: React.FC = () => {
                 <a href="#" className="text-brand-light/50 hover:text-brand-gold transition-colors"><FacebookIcon/></a>
                 <a href="#" className="text-brand-light/50 hover:text-brand-gold transition-colors"><InstagramIcon/></a>
                 <a href="#" className="text-brand-light/50 hover:text-brand-gold transition-colors"><LinkedinIcon/></a>
+                <a href="#" className="text-brand-light/50 hover:text-brand-gold transition-colors"><YoutubeIcon/></a>
             </div>
           </div>
 
